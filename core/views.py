@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 
 # Create your views here.
 
@@ -13,6 +13,3 @@ def contact(request):
 
 def store(request):
     return render(request,"core/store.html")
-def sample(request):
-    return render(request,"core/sample.html")
-
